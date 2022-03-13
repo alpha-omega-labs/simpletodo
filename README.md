@@ -38,7 +38,7 @@ Documents by NFT:
 - add proof of existance, proof of integrity feature (opt) to NFT
 - add browser pdf and text viewers
 
-## GenesisL1 DAOs
+## GenesisL1 DAOs - noosphere init
 
 - deploy first GenesisL1 DAO (Moloch source code for DAOs planned) 
 - deploy UI for the first GenesisL1 DAO
