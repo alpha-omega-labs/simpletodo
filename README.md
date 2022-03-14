@@ -16,17 +16,21 @@
 - active validators set 300 to 100
 - default min suggested gas price 1gwei(1000000000aphoton) to 10gwei(10000000000aphoton)
 
+<strong>EVM <=> EVM bridge between Ethereum and GenesisL1 blockchains</strong>
+- https://github.com/ChainSafe/ChainBridge
+- GenesisL1 ERC-20 lock on Ethereum mainnet -> wrappedGenesisL1 ERC-20 release on GenesisL1 mainnet -> wrappedGenesisL1 ERC-20 to L1 coin swap ~1:1
+- wrappedGenesisL1 ERC-20 burn/lock on GenesisL1 mainnet -> GenesisL1 ERC-20 release on Ethereum mainnet
+
 ## GenesisL1 NFTs
 
 MolNFT v0
 - fix bugs (single NFT view by ID)
-- add db as a first step for paging, filters, etc
+- add db as a first step for paging, filters, loader, caching, etc
 - add graph as a second step and/or migrate to other progressive market contract
 
 MolNFT V1:
 - NFT and lazy mint contract for genesisl1.io
 - Unique IPFS hash
-
 
 MolNFT V2:
 - download PDB BANK binary molecular formats
@@ -39,9 +43,8 @@ Documents by NFT:
 - add browser pdf and text viewers
 
 ## GenesisL1 DAOs - noosphere init
-
 - deploy first GenesisL1 DAO (Moloch source code for DAOs planned) 
 - deploy UI for the first GenesisL1 DAO
 
-## web3 p2p off chain chata
+## web3 p2p off chain chat
 
